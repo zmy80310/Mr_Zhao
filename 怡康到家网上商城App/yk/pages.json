@@ -1,0 +1,118 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationBarTitleText":"登录"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle":"custom"
+			}
+		}
+	    ,{
+            "path" : "pages/call/call",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/events/events",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/shop/shop",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/index/info/info",
+            "style" : {
+				"navigationBarTitleText":"商品"
+			}
+        }
+        
+        ,{
+            "path" : "pages/site/site",
+            "style" : {
+				"navigationStyle":"custom"
+			}
+        }
+        ,{
+            "path" : "pages/site/sites/sites",
+            "style" : {
+				"navigationBarTitleText":"添加收获地址"
+			}
+        }
+        ,{
+            "path" : "pages/site/sites/sites",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/sou/sou",
+            "style" : {
+				"navigationBarTitleText":"搜索",
+				 "navigationBarBackgroundColor": "#40E0D0 "
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+		"tabBar":{
+			"color":"#FFFFFF",
+			"selectedColor":"blue",
+			"backgroundColor":"#eee",
+			"list":[
+				{
+					"pagePath":"pages/index/index",
+					"text":"首页",
+					"iconPath":"static/icon-home.png",
+					"selectedIconPath":"static/icon-home-selected.png"
+				},
+				{
+					"pagePath":"pages/call/call",
+					"text":"商城",
+					"iconPath":"static/icon-category.png",
+					"selectedIconPath":"static/icon-category-selected.png"
+				},
+				{
+					"pagePath":"pages/events/events",
+					"text":"活动",
+					"iconPath":"static/icon-star.png",
+					"selectedIconPath":"static/icon-star-selected.png"
+				},
+				{
+					"pagePath":"pages/shop/shop",
+					"text":"购物车",
+					"iconPath":"static/icon-cart.png",
+					"selectedIconPath":"static/icon-cart-selected.png"
+				},
+				{
+					"pagePath":"pages/mine/mine",
+					"text":"我",
+					"iconPath":"static/icon-user.png",
+					"selectedIconPath":"static/icon-user-selected.png"
+				}
+			]
+		},
+		"permission": {
+			  "scope.userLocation": {
+			    "desc": "获取你的位置信息...." 
+			 }
+			}
+}
